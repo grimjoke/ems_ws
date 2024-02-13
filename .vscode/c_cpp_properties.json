@@ -3,17 +3,17 @@
     {
       "browse": {
         "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
+        "limitSymbolsToIncludedHeaders": true
       },
       "includePath": [
-        "/opt/ros/noetic/include/**",
         "/ems_ws/src/PRADA_ems/include/**",
+        "/opt/ros/noetic/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
+      "cStandard": "c99",
       "cppStandard": "c++14"
     }
   ],

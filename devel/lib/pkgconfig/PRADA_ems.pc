@@ -3,6 +3,6 @@ prefix=/ems_ws/devel
 Name: PRADA_ems
 Description: Description of PRADA_ems
 Version: 0.0.0
-Cflags: 
+Cflags: -I/ems_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: 
