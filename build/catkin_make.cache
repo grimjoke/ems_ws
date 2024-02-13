@@ -1,0 +1,2 @@
+PRADA_ems
+-DCATKIN_DEVEL_PREFIX=/ems_ws/devel -DCMAKE_INSTALL_PREFIX=/ems_ws/install -G Unix Makefiles
